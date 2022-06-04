@@ -7,14 +7,16 @@ dataSet[dataSetVersion].options = [
     key: "series",
     tooltip: "Check this to restrict to certain games.",
     checked: false,
-    sub: [
-      { name: "GUILTY GEAR Accent Core +R (Exclusive Characters)", key: "ggr" },     
+    sub: [ 
       { name: "GUILTY GEAR Xrd", key: "ggxrd" },
       { name: "GUILTY GEAR -STRIVE-", key: "ggst" },
       { name: "BlazBlue Central Fiction", key: "bb" },
       { name: "Melty Blood Type Lumina", key: "mbtl" },
       { name: "Melty Blood Actress Again Current Code", key: "mbaa" },
       { name: "Under Night In-Birth", key: "unib" },
+      { name: "Persona 4 Arena Ultimax", key: "pa" },
+      { name: "GUILTY GEAR Accent Core +R", key: "ggr" },     
+      { name: "BlazBlue Cross Tag Battle", key: "bbtag" },
     ]
   },
   {
@@ -59,7 +61,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Monkey D. Luffy",
     img: "xcR1Dbw.png",
     opts: {
-      series: ["ggst", "ggxrd", "bb", "mbtl", "mbaa", "unib"],
+      series: ["ggst", "ggxrd", "ggr", "bb", "mbtl", "mbaa", "unib", "bbtag", "pa", "mvc", "dbfc"],
       luffy: true
     }
   },
@@ -1166,6 +1168,216 @@ dataSet[dataSetVersion].characterData = [
     img: "g5HmLg4.png",
     opts: {
       series: ["ggr"],
+    }
+  },
+  {
+    name: "Heart Aino",
+    img: "3AAXmr7.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Yumi",
+    img: "3gyklfd.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Blitztank",
+    img: "s1W94f2.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Ruby Rose",
+    img: "LXQ88Ud.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Blake Belladonna",
+    img: "9sezNrw.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Weiss Schnee",
+    img: "gqN9ILY.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Yang Xiao Long",
+    img: "Io2qkGK.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Neo Politan",
+    img: "UdicKE8.png",
+    opts: {
+      series: ["bbtag"],
+    }
+  },
+  {
+    name: "Margaret",
+    img: "G8uag0i.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "SHO Minazuki",
+    img: "26z6Vgw.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Naoto Shirogane",
+    img: "cHlcCfX.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Teddie",
+    img: "dWh8ZqY.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Yukiko Amagi",
+    img: "QJRzSOU.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Yu Narukami",
+    img: "zdisUuX.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Yosuke Hanamura",
+    img: "voY4wJV.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Chie Satonaka",
+    img: "SaDLAOI.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Kanji Tatsumi",
+    img: "xugMdp4.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+   {
+    name: "Sho MINAZUKI",
+    img: "lXATfbk.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Marie",
+    img: "DVbngre.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Ken Amada",
+    img: "khX1UiO.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Yukari Takeba",
+    img: "NnXOMix.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Labrys",
+    img: "HDHBWYa.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Mitsuru Kirijo",
+    img: "lVWpPaM.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Aigis",
+    img: "NVAZIAR.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Tohru Adachi",
+    img: "hmP1mnG.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Elizabeth",
+    img: "rHcyYAf.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Akihiko Sanada",
+    img: "cCueHva.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Shadow Labrys",
+    img: "apqPpbc.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Junpei Iori",
+    img: "mW62rd6.png",
+    opts: {
+      series: ["pa"],
+    }
+  },
+  {
+    name: "Rise Kujikawa",
+    img: "sieuYeq.png",
+    opts: {
+      series: ["pa"],
     }
   },
 ];
