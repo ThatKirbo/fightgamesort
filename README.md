@@ -1,6 +1,6 @@
 # charasort
 A web based character sorter. Allows users to run through a manual merge sort of their favorite
-characters from a set.
+characters from a set. i cloned the thing and made it into my thing this is so cool
 
 **Features**
  * Entirely client side, no backend server required.
