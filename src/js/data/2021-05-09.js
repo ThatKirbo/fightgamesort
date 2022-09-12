@@ -762,7 +762,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mario Gallo Bestino",
-    img: "GkHheL5.png",
+    img: "QUoOQV7.png",
     opts: {
       series: ["mbtl"],
     }
@@ -777,7 +777,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mash Kyrielight",
-    img: "QUoOQV7.png",
+    img: "GkHheL5.png",
     opts: {
       series: ["mbtl"],
       crossover: true
