@@ -762,9 +762,25 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mario Gallo Bestino",
+    img: "GkHheL5.png",
+    opts: {
+      series: ["mbtl"],
+    }
+  },
+  {
+    name: "Neco Arc (Tsuki:Re)",
+    img: "9hRLPkV.png",
+    opts: {
+      series: ["mbtl"],
+      neco: true
+    }
+  },
+  {
+    name: "Mash Kyrielight",
     img: "QUoOQV7.png",
     opts: {
       series: ["mbtl"],
+      crossover: true
     }
   },
   {
@@ -964,11 +980,12 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Neco-Arc",
+    name: "Neco-Arc (Tsukihime)",
     img: "qS44xie.png",
     opts: {
       series: ["mbaa"],
-      neco: true
+      neco: true,
+      again: true
     }
   },
   {
